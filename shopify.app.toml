@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "yun-qr-app"
+client_id = "97e1f29d987e1fa456dc40f16c7dd1dd"
+application_url = "https://jones-browser-recreational-heavily.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://jones-browser-recreational-heavily.trycloudflare.com/auth/callback",
+  "https://jones-browser-recreational-heavily.trycloudflare.com/auth/shopify/callback",
+  "https://jones-browser-recreational-heavily.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-07"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "yundev.myshopify.com"
