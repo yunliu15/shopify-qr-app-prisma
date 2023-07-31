@@ -2,7 +2,7 @@
 
 name = "yun-qr-app"
 client_id = "97e1f29d987e1fa456dc40f16c7dd1dd"
-application_url = "https://jones-browser-recreational-heavily.trycloudflare.com"
+application_url = "https://gcc-com-psi-complexity.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://jones-browser-recreational-heavily.trycloudflare.com/auth/callback",
-  "https://jones-browser-recreational-heavily.trycloudflare.com/auth/shopify/callback",
-  "https://jones-browser-recreational-heavily.trycloudflare.com/api/auth/callback"
+  "https://gcc-com-psi-complexity.trycloudflare.com/auth/callback",
+  "https://gcc-com-psi-complexity.trycloudflare.com/auth/shopify/callback",
+  "https://gcc-com-psi-complexity.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
